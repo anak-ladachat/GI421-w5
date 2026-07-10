@@ -11,6 +11,11 @@ namespace BU.Workshop
 
         private void Start()
         {
+            if (_addressableToSpawn == null)
+            {
+                return;
+            }
+
             // Loads the data without placing anything in the hierarchy
             _addressableToSpawn.LoadAssetAsync().Completed += OnPlayerLoaded;
         }
