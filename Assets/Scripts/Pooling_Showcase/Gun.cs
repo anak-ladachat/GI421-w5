@@ -17,6 +17,9 @@ namespace BU.Workshop
         private float _fireRate = 3f;
 
         [SerializeField]
+        private int _bulletPreFrame = 100;
+
+        [SerializeField]
         private float _randomRotateRangeMin = -130f;
 
         [SerializeField]
@@ -48,7 +51,10 @@ namespace BU.Workshop
                 var randomAngle = UnityEngine.Random.Range(_randomRotateRangeMin, _randomRotateRangeMax);
                 var direction = Quaternion.Euler(0, 0, randomAngle) * Vector2.up;
 
-                Fire(direction);
+                for (int i = 0; i < _bulletPreFrame; i++)
+                {
+                    Fire(direction);
+                }
 
                 _nextFireTime = Time.time + 1f / _fireRate;
             }

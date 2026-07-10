@@ -50,7 +50,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::BU.Workshop.Gun
   _bulletPrefab: {fileID: 107215400156328657, guid: 59daa33ce97ed314abaf02b29a04527d, type: 3}
   _muzzleRoot: {fileID: 1647967393956161849}
-  _fireRate: 50
+  _fireRate: 1000
+  _bulletPreFrame: 1
   _randomRotateRangeMin: -60
   _randomRotateRangeMax: 60
   _useAutoFire: 1
@@ -68,7 +69,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::BU.Workshop.GunWithPooling
   _bulletPrefab: {fileID: 107215400156328657, guid: 59daa33ce97ed314abaf02b29a04527d, type: 3}
   _muzzleRoot: {fileID: 1647967393956161849}
-  _fireRate: 50
+  _fireRate: 1000
+  _bulletPreFrame: 1
   _randomRotateRangeMin: -60
   _randomRotateRangeMax: 60
   _useAutoFire: 1
