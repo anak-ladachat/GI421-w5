@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Default Local Group
+  m_EditorClassIdentifier: Unity.Addressables.Editor::UnityEditor.AddressableAssets.Settings.AddressableAssetGroup
+  m_GroupName: Default Local Group
+  m_GUID: d4b5aacb704e9c3418c6703f110ccbd3
+  m_SerializeEntries:
+  - m_GUID: 11a7919753f427940b1d7ccf6d35561f
+    m_Address: Assets/ArtAssets/3d model/mountain_terrain.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - model
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 9a359772f4f7555469ee1226ff113efe, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 0b4a32ab7c1a591489821028e15371f3, type: 2}
+    - {fileID: 11400000, guid: 4e179d385d4aa5544a7443328e4806c9, type: 2}
