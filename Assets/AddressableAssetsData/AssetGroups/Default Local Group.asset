@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Default Local Group
+  m_EditorClassIdentifier: Unity.Addressables.Editor::UnityEditor.AddressableAssets.Settings.AddressableAssetGroup
+  m_GroupName: Default Local Group
+  m_GUID: b1e28c2fad008224d92a1826084ae420
+  m_SerializeEntries:
+  - m_GUID: 234703cae2af4b747a5860860ab662c3
+    m_Address: Assets/ArtAssets/3d model/mountain_terrain.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 35b9c858c8f1b9f43b9582bdbb28c397
+    m_Address: Assets/ArtAssets/3d model/Moving_Castle.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 4e8d3affa76060942901ed3fcc141e8b, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: e4a9383fa2434fa4cb76ff74ab468125, type: 2}
+    - {fileID: 11400000, guid: f60f47d6b8a986f46a8db86b22225ff0, type: 2}
